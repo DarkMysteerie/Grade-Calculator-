@@ -42,15 +42,15 @@ cout<<"\n";
 
 if (Average <= 100 && Average >=98){
     cout<<" A+. You passed." <<endl;
-} else if (Average == 97 && Average >= 95){
+} else if (Average <= 97 && Average >= 95){
     cout <<"A-. You passed." <<endl;
-} else if (Average == 94 && Average >= 90){
+} else if (Average <= 94 && Average >= 90){
     cout<<"A. You passed." <<endl;
-} else if (Average == 89 && Average >= 85 ){
+} else if (Average <= 89 && Average >= 85 ){
     cout <<"B. You passed." <<endl;
-} else if (Average == 84 && Average >= 80){
+} else if (Average <= 84 && Average >= 80){
     cout <<"C. You passed." <<endl;
-} else if (Average == 79 && Average >= 75){
+} else if (Average <= 79 && Average >= 75){
     cout <<"D. You passed." <<endl;
 } else {
     cout <<"F. You failed." <<endl;
